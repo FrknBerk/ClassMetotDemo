@@ -7,10 +7,10 @@ namespace DictionaryIntro
     class MyDictionary<K,V>
     {
         K[] _key;
-        K[] _tempKey;
+        K[] _tempKey; //geçici Key değeri
 
         V[] _value;
-        V[] _tempValue;
+        V[] _tempValue; //geçici Value değeri
 
 
         public MyDictionary()
@@ -40,6 +40,7 @@ namespace DictionaryIntro
 
         public void List()
         {
+            //Key ve Value değerlerini listeliyoruz
             for (int i = 0; i < _key.Length; i++)
             {
                 Console.WriteLine("Key : " + _key[i] + " Value : " + _value[i]);

@@ -6,6 +6,7 @@ namespace DictionaryIntro
     {
         static void Main(string[] args)
         {
+            //C# Generic Types Dictionary Example
             MyDictionary<int, string> myDictionary = new MyDictionary<int, string>();
             myDictionary.Add(1, "Furkan");
             myDictionary.Add(2, "Berk");
