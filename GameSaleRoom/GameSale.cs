@@ -6,7 +6,7 @@ namespace GameSaleRoom
 {
     public abstract class GameSale : ISalesManager
     {
-        public void GameList(Game[] games)
+        public virtual void GameList(Game[] games)
         {
             Console.ForegroundColor = ConsoleColor.Blue;
             foreach (Game game in games)
@@ -30,14 +30,14 @@ namespace GameSaleRoom
                 " Oyun Türü: " + game.Type + " Kampanyalı Fiyat : " + ((game.Price) - (game.Price) * 50 / 100) + "$\n");
         }
 
-        public void NewYearCampaign(Game game)
+        public virtual void NewYearCampaign(Game game)
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Oyun Id: " + game.GameId + " Oyun Adı: " + game.GameName +
                 " Oyun Türü: " + game.Type + " Kampanyalı Fiyat : " + ((game.Price) - (game.Price) * 75 / 100) + "$\n");
         }
 
-        public void WeekendCampaignSale(Game game, Gamer gamer)
+        public virtual void WeekendCampaignSale(Game game, Gamer gamer)
         {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Oyun Id: " + game.GameId + " Oyun Adı: " + game.GameName +
@@ -45,7 +45,7 @@ namespace GameSaleRoom
                 gamer.GamerFirstName+ " " +gamer.GamerLastName+" oyuncuya satıldı."+"\n");
         }
 
-        public void BlackFridayCampaignSale(Game game, Gamer gamer)
+        public virtual void BlackFridayCampaignSale(Game game, Gamer gamer)
         {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Oyun Id: " + game.GameId + " Oyun Adı: " + game.GameName +
@@ -53,7 +53,7 @@ namespace GameSaleRoom
                 gamer.GamerFirstName + " " + gamer.GamerLastName + " oyuncuya satıldı." + "\n");
         }
 
-        public void NewYearCampaignSale(Game game, Gamer gamer)
+        public virtual void NewYearCampaignSale(Game game, Gamer gamer)
         {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Oyun Id: " + game.GameId + " Oyun Adı: " + game.GameName +
