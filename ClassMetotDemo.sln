@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{6231A085-6EEF-4025-9649-05A0FD7FD038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryIntro", "DictionaryIntro\DictionaryIntro.csproj", "{F8B3EA0E-F824-4995-809A-17149368FDF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryIntro", "DictionaryIntro\DictionaryIntro.csproj", "{F8B3EA0E-F824-4995-809A-17149368FDF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameSaleRoom", "GameSaleRoom\GameSaleRoom.csproj", "{425E37F2-4047-4B47-A0FB-72BE0CCB2ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F8B3EA0E-F824-4995-809A-17149368FDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B3EA0E-F824-4995-809A-17149368FDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B3EA0E-F824-4995-809A-17149368FDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425E37F2-4047-4B47-A0FB-72BE0CCB2ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425E37F2-4047-4B47-A0FB-72BE0CCB2ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425E37F2-4047-4B47-A0FB-72BE0CCB2ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425E37F2-4047-4B47-A0FB-72BE0CCB2ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
